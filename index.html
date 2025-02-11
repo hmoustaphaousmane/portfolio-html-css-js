@@ -17,6 +17,12 @@
       <div id="brand">
         <a href="#">hmoustaphaousmane</a>
       </div>
+
+      <!-- Hamburger menu icon for smaller screens -->
+      <div id="hamburger-icon" class="hamburger">
+        &#9776; <!-- Hamburger icon -->
+      </div>
+
       <div id="nav-link">
         <ul>
           <li><a href="#about">About</a></li>
@@ -31,7 +37,7 @@
       <h1>Hi, my name is Hassane</h1>
       <p>Web Developer | Data Analyst | Tech Enthusiast</p>
     </div>
-  </header>
+  </header>  
 
   <main>
     <!-- About me -->
@@ -50,6 +56,11 @@
       <!-- Portfolio items -->
     </section>
 
+    <section id="x-posts">
+      <!-- Post items -->
+        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">A prompt is the instruction provided as input to an AI tool. The output of the AI tool or LLM relies on the prompt. Thus clear and detailed prompts can generate precise and efficient responses. So, prompts are very important in AI communication.<a href="https://twitter.com/hashtag/alxafrica?src=hash&amp;ref_src=twsrc%5Etfw">#alxafrica</a> <a href="https://twitter.com/hashtag/askalx?src=hash&amp;ref_src=twsrc%5Etfw">#askalx</a> <a href="https://twitter.com/hashtag/prompting?src=hash&amp;ref_src=twsrc%5Etfw">#prompting</a> <a href="https://t.co/CKgjqsiyNn">pic.twitter.com/CKgjqsiyNn</a></p>&mdash; Hassane Moustapha Ousmane (@hmousmane) <a href="https://twitter.com/hmousmane/status/1889262468376977649?ref_src=twsrc%5Etfw">February 11, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </section>
+
     <section>
       <!-- Contact form -->
     </section>
@@ -58,6 +69,19 @@
   <footer>
     <!-- Footer -->
   </footer>
+
+  <script>
+    // Get the hamburger icon and the nav links container
+    const hamburgerIcon = document.getElementById('hamburger-icon');
+    const navLinks = document.getElementById('nav-link');
+  
+    // Add an event listener to the hamburger icon
+    hamburgerIcon.addEventListener('click', () => {
+      // Toggle the 'open' class to show or hide the nav links
+      navLinks.classList.toggle('open');
+    });
+  </script>
+  
 </body>
 
 </html>
