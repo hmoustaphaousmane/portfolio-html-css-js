@@ -17,6 +17,9 @@ nav {
 
 #brand {
   flex-shrink: 0; /* Prevent shrinking of brand */
+  margin: 0 10px;
+  font-style: italic;
+  font-size: 1.5rem;
 }
 
 nav#nav-link {
@@ -48,4 +51,21 @@ img {
 
 h2 {
   font-size: 18px;
+}
+
+#social-media a {
+ background-color: white;
+ font-size: 20px;
+ border-radius: 10px;
+ padding: 10px;
+ display: block;
+ text-align: center;
+ margin: 10px;
+ color: slateblue;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 10px;
 }
